@@ -1,0 +1,18 @@
+body {
+  font-family: Arial;
+  background-color: #112130;
+  color: #f4f3f3;
+}
+header {
+  background-color: #070707;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+section {
+  padding: 2rem;
+}
+a {
+  color: #660afa;
+  text-decoration: none;
+}
