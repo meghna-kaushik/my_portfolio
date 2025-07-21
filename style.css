@@ -16,3 +16,23 @@ a {
   color: #660afa;
   text-decoration: none;
 }
+
+
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode header {
+  background-color: #1f1f1f;
+}
+
+body.dark-mode a {
+  color: #90cdf4;
+}
+
+body.dark-mode button {
+  background-color: #333;
+  color: #fff;
+}

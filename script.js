@@ -7,3 +7,23 @@ function changeBackground() {
 //   alert("Welcome to my Portfolio! 👋");
 // }
 
+const toggleBtn = document.getElementById('theme-toggle');
+
+// Load saved theme on page load
+window.onload = function () {
+  if (localStorage.getItem('theme') === 'dark') {
+    document.body.classList.add('dark-mode');
+  }
+};
+
+// When the button is clicked
+toggleBtn.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+
+  // Save preference in localStorage
+  if (document.body.classList.contains('dark-mode')) {
+    localStorage.setItem('theme', 'dark');
+  } else {
+    localStorage.setItem('theme', 'light');
+  }
+});
