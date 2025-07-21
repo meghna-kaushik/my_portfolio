@@ -1,11 +1,25 @@
+:root {
+  --bg-color: #f8f9fa;
+  --text-color: #333;
+  --accent-color: #007bff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+
 body {
   font-family: Arial;
-  background-color: #112130;
-  color: #f4f3f3;
+  background-color: #f6f6f6;
+  color: #911414;  
 }
 header {
-  background-color: #070707;
-  color: white;
+  background-color: #5195ba;
+  color: rgb(237, 237, 236);
   padding: 2rem;
   text-align: center;
 }
