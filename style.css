@@ -85,3 +85,40 @@ body.dark-mode button {
   opacity: 1;
   transform: translateY(0);
 }
+
+
+.project-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.project-card {
+  width: 300px;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+/* 📱 Small Screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 1rem;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
