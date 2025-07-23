@@ -64,19 +64,30 @@
 
 
   <section id="contact" class="fade-in">
-    <h2>Connect with Me</h2>
-    <ul>
-      <li><a href="https://github.com/meghna-kaushik">GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/meghna-k-029413217/">LinkedIn</a></li>
-    </ul>
-  </section>
+  <h2>Contact Me</h2>
+  <form id="contact-form" action="https://formspree.io/f/xanbebrr" method="POST">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" required placeholder="Your Name" />
+
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required placeholder="you@example.com" />
+
+    <label for="message">Message</label>
+    <textarea name="message" id="message" rows="5" required placeholder="Type your message..."></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</section>
+
 
   <section id="action" class="fade-in">
     <h2>Try Me!</h2>
     <button onclick="changeBackground()">Click to Change Background</button>
   </section>
-
+ <button id="scrollToTopBtn" title="Go to top">↑</button>
   <script src="script.js"></script>
+ 
+
 </body>
 </html>
 
